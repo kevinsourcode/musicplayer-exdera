@@ -1,3 +1,5 @@
+//displaying the songs and its metadata beautifully
+
 const SongCard = (props) => {
   const changeInfo = () => {
     props.setTitle(props.songname);

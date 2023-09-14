@@ -4,11 +4,14 @@ import { FiFastForward } from "react-icons/fi";
 import useSound from "use-sound";
 import violet from "../assets/mp3/tory.mp3";
 
+//component to help the user control the music playback
+
 const PlayerControls = (props) => {
   const [playing, setPlaying] = useState(false);
 
-  const [play, { pause, duration, sound }] = useSound(violet);
+  const [play, { pause, duration, sound }] = useSound(violet); //for playing music
 
+  // for the progress bar
   const [currTime, setCurrTime] = useState({
     min: "0",
     sec: "00",
@@ -32,6 +35,7 @@ const PlayerControls = (props) => {
   });
 
   useEffect(() => {
+    //progress bar
     const interval = setInterval(() => {
       if (sound) {
         setSeconds(sound.seek([])); // setting the seconds state with the current state
@@ -46,6 +50,7 @@ const PlayerControls = (props) => {
     return () => clearInterval(interval);
   }, [sound]);
 
+  //control play and pause of the song
   const playingButton = () => {
     if (playing) {
       pause(); // this will pause the audio

@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+
+//Component to show top music charts
+
 import SongCard from "./SongCard";
 import { useState, useEffect } from "react";
 import axios from "axios";

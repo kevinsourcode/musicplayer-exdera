@@ -28,6 +28,8 @@ Project built using React + Vite and Tailwind CSS for styling.
 
 ---
 
-### a single song was used for playing music inside the app, this can easily be pointed to other songs on the database.
+### a single song was used for playing music inside the app, this can easily be pointed to other songs on the database. press the play button to play the music
 
 ### showing the respective song title, artist, and album art would've been easier if a global state management library would have been used. But because of time constraints that has been implmented for Top Music only.
+
+### svgs and absolute values have been used to make the project closely resemble to the XD File.

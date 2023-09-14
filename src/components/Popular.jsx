@@ -6,6 +6,7 @@ const Popular = () => {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
+    //api request to songs data
     async function fetchData() {
       try {
         const response = await axios.get("http://localhost:8001/songs");
@@ -18,6 +19,7 @@ const Popular = () => {
     fetchData();
   }, []);
 
+  // mapping API Data to the respective component
   return (
     <div className=' w-2/5'>
       <div className='sticky mb-[20px]'>

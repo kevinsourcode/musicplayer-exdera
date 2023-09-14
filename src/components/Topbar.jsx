@@ -1,3 +1,5 @@
+//component to show search and other buttons on the top bar
+
 const Topbar = () => {
   return (
     <div className='flex justify-between pr-8 max-w-[1600px] relative'>

@@ -1,3 +1,5 @@
+//component to show recommended albums list
+
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Albums from "./Albums";
@@ -6,6 +8,7 @@ const Recommended = () => {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
+    //api request
     async function fetchData() {
       try {
         const response = await axios.get("http://localhost:8002/albums");
@@ -18,6 +21,7 @@ const Recommended = () => {
     fetchData();
   }, []);
 
+  // mapping API Data to the respective component
   return (
     <div className='flex flex-col flex-1 pl-[32px]'>
       <div className='flex justify-between w-full items-center'>

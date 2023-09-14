@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+
+//component to show each popular song and have individual control on it
+
 const PopularSongDetail = (props) => {
   return (
     <div className='flex gap-2 items-center justify-between hover:border hover:bg-white hover:shadow-2xl px-4 py-2 hover:rounded-l-full hover:rounded-r-full'>
