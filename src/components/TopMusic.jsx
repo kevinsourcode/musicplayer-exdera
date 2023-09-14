@@ -19,15 +19,17 @@ const TopMusic = () => {
   }, []);
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col pt-4'>
       <div className='flex justify-between w-full items-center'>
-        <h2 className='font-bold text-3xl text-black'>Top Music</h2>
+        <h2 className='font-bold text-3xl text-black mb-[28px]'>Top Music</h2>
         <div>- +</div>
       </div>
-      <div className='flex overflow-x gap-20'>
-        {songs.map((songs, i) => (
-          <SongCard key={i} songname={songs.title} albumArt={songs.albumArt} artist={songs.artist} />
-        ))}
+      <div className='overflow-x-scroll'>
+        <div className='flex gap-20 '>
+          {songs.map((songs, i) => (
+            <SongCard key={i} songname={songs.title} albumArt={songs.albumArt} artist={songs.artist} />
+          ))}
+        </div>
       </div>
     </div>
   );

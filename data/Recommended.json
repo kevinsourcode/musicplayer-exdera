@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "title": "Lights",
+      "artist": "Cardi B",
+      "albumArt": "https://s3-alpha-sig.figma.com/img/6dc1/08ba/e7a5ca1e7be54b9b6e1b60ebaed2e4c2?Expires=1695600000&Signature=nEMHiJpY53~FZibd~u8r80UnG73aLUufb~z0SLcH7vftrK6REQ8ezr1AnulaIds60yEKEqg0iaCFTuHfop2htJhni5HIFqyXx7z~JNJVDhx6LNeGYEkQIo8FddBD~9~9BX3e6dG5DoW7hz6~5NAyP-E3njO-fRG5RpxFUrkxk2bYYmktrGARsNLGewrYEO7-12DbdRBOU0f9418UEMcAqdU3YIjTLquxcllwY3Ie5yOMIgQnQ9Q3Wg-RXlpWyZ02zhHAPNkUr00rTJTxs4iyeJRgH6qoiqPJ~HD4n2o-M34zn4xUrnR6rxANr2STh8YNWUJ-ejCVEr4dhjGIWH11dQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "title": "Different World",
+      "artist": "Cardi B",
+      "albumArt": "https://s3-alpha-sig.figma.com/img/4687/6b5e/eff71a827a3c055b04d20db86951d4af?Expires=1695600000&Signature=OCaVuv8dJsrwqF06O7L2C1EuygGGEcgBvaAmX9Sk15-346R2il7FK-0ZCWZkzGJgsT1MOtt1BdgX5FmzJOyd7wRVECsxv4yBM8hxRRrrCoaZfSDSzbVv0Vy09TvTdSyt28UCk55t8ltjOVO-xs9DTmaAYovFUepQ6R6TK-J7yg2E4W5mmrgN2pv~qI56HJ24ouUtB0lUqDpKGKQUXg48ZVeNNfntPRGy9z80yRreE-~E5s9QgnNnKqfgcQEwdScPaNnEunjgkmtmwyJxZBtHWsjyJis3O24fmweJFLBdtWhvVuH5Uv30x9FWciGXfnyJW-jSKdy5GxPgISU2XkJ85A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "title": "Different World",
+      "artist": "Cardi B",
+      "albumArt": "https://s3-alpha-sig.figma.com/img/6e92/daf3/64a767a6ba35e793abfb3b1afa159bdf?Expires=1695600000&Signature=IPcxrSGHF1ubsSzxVp5k2ke~3fU9jN~ud5D0JyvxFAxPR3ama71d5Q4vSQQW5JzuZZviQ~ZwW~XEyFW8y51iEVkpmj4pxzt6O2HCJNm6EuwPLtN-B7dEms6k5CPE~0zDiwXD~nNg08vWnDIpFJYyOjnpxXJYPrvTuFqgVXHOhkzdMW909rO7ZmpfTeLI2FhpzFIiWFlKECUtNJZi0N7~GNdNe4YQGJhqn-1CycRkdR2OIs-DdHZjnWLzFTH-gnrb7Lw4wSHjvlE1FNP5ZGyMxKPDe4SqtUpYwdygTHWsfhuK7RdGIcR3hXiIdAk8s~1c4Tzrbt2qCNtNvgfqtOc1Cg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "title": "Different World",
+      "artist": "Cardi B",
+      "albumArt": "https://s3-alpha-sig.figma.com/img/6e92/daf3/64a767a6ba35e793abfb3b1afa159bdf?Expires=1695600000&Signature=IPcxrSGHF1ubsSzxVp5k2ke~3fU9jN~ud5D0JyvxFAxPR3ama71d5Q4vSQQW5JzuZZviQ~ZwW~XEyFW8y51iEVkpmj4pxzt6O2HCJNm6EuwPLtN-B7dEms6k5CPE~0zDiwXD~nNg08vWnDIpFJYyOjnpxXJYPrvTuFqgVXHOhkzdMW909rO7ZmpfTeLI2FhpzFIiWFlKECUtNJZi0N7~GNdNe4YQGJhqn-1CycRkdR2OIs-DdHZjnWLzFTH-gnrb7Lw4wSHjvlE1FNP5ZGyMxKPDe4SqtUpYwdygTHWsfhuK7RdGIcR3hXiIdAk8s~1c4Tzrbt2qCNtNvgfqtOc1Cg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    }
+  ]
+}
