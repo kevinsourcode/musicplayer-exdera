@@ -7,19 +7,23 @@ import Recommended from "./components/Recommended";
 
 function App() {
   return (
-    <div className='relative w-full h-screen overflow-hidden p-8'>
-      <div className='flex'>
+    <div className='relative w-full h-screen pt-8 pl-8 pr-8 flex flex-col justify-between'>
+      <div className='flex h-full'>
         <Sidebar />
-        <div className='w-full p-6'>
-          <Topbar />
-          <TopMusic />
-          <div className='flex w-full justify-between'>
+        <div className='h-full w-full p-6 flex flex-col '>
+          <div className='flex flex-col flex-1'>
+            <Topbar />
+            <TopMusic />
+          </div>
+          <div className='flex flex-1 w-full justify-between'>
             <Popular />
             <Recommended />
           </div>
         </div>
       </div>
-      <PlayerControls />
+      <div>
+        <PlayerControls />
+      </div>
     </div>
   );
 }

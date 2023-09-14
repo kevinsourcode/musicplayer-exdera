@@ -1,6 +1,6 @@
 const Recommended = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col flex-1'>
       <div className='flex justify-between w-full items-center'>
         <h2 className='font-bold text-3xl text-black'>Recommended Album</h2>
       </div>

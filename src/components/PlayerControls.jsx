@@ -1,6 +1,6 @@
 const PlayerControls = () => {
   return (
-    <div className='rounded-l-full rounded-r-full border border-gray-400 p-6 flex gap-4 items-center'>
+    <div className='rounded-l-full rounded-r-full border border-gray-400 p-6 flex gap-4 items-center bg-white'>
       <img src='' alt='' className='w-6 h-6 bg-black' />
       <div className='flex flex-col'>
         <h5>Available (Natural Visual)</h5>
