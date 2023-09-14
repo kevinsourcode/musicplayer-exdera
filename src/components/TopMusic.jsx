@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import SongCard from "./SongCard";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const TopMusic = () => {
+const TopMusic = (props) => {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
@@ -33,7 +34,7 @@ const TopMusic = () => {
       </div>
       <div className='flex gap-10'>
         {songs.map((songs, i) => (
-          <SongCard key={i} songname={songs.title} albumArt={songs.albumArt} artist={songs.artist} />
+          <SongCard key={i} songname={songs.title} albumArt={songs.albumArt} artist={songs.artist} setAlbumArt={props.setAlbumArt} setTitle={props.setTitle} setArtist={props.setartist} />
         ))}
       </div>
     </div>
