@@ -67,7 +67,7 @@ const PlayerControls = (props) => {
       </div>
       <div className='flex w-full gap-10 items-center '>
         <div className='flex items-center gap-4 w-full justify-between'>
-          <div className='flex items-center gap-4 pl-32'>
+          <div className='flex items-center gap-4 pl-24'>
             <FiFastForward className=' transform rotate-180 h-6 w-6' />
             {!playing ? (
               <svg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewBox='0 0 54 54' fill='none' onClick={playingButton}>
@@ -107,7 +107,7 @@ const PlayerControls = (props) => {
             </div>
           </div>
 
-          <div className='flex gap-6 items-center pr-6'>
+          <div className='flex gap-6 items-center pr-4'>
             <svg xmlns='http://www.w3.org/2000/svg' width='23' height='20' viewBox='0 0 23 20' fill='none'>
               <path d='M20.4426 2.54219C18.3873 0.485938 15.054 0.485938 12.9987 2.54219L11.9845 3.55639L10.9703 2.54219C8.91472 0.486619 5.58198 0.486619 3.52642 2.54219C1.47085 4.59775 1.47085 7.93049 3.52642 9.98605L4.54062 11.0003L11.9845 18.4441L19.4284 11.0003L20.4426 9.98605C22.4988 7.93077 22.4988 4.59747 20.4426 2.54219Z' stroke='black' />
               <path d='M16.2646 9.64891C18.3331 9.67188 18.8162 11.574 17.6749 13.1304C16.5335 14.6867 16.2646 14.7713 16.2646 14.7713' stroke='#5E77FB' />

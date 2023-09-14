@@ -20,9 +20,9 @@ const TopMusic = (props) => {
   }, []);
 
   return (
-    <div className='flex flex-col pt-4 w-full'>
+    <div className='flex flex-col w-full'>
       <div className='flex justify-between items-center'>
-        <h2 className='font-bold text-3xl text-black mb-[20px]'>Top Music</h2>
+        <h2 className='font-bold text-2xl text-black mb-[20px]'>Top Music</h2>
         <div className='flex gap-4 pr-9'>
           <svg xmlns='http://www.w3.org/2000/svg' width='18' height='14' viewBox='0 0 21 14' fill='none'>
             <path d='M7.40645 0.258502C7.76505 0.610064 7.76505 1.19366 7.41348 1.55225L3.13849 5.83428H19.4088C19.908 5.83428 20.3158 6.2421 20.3158 6.74835C20.3158 7.2546 19.908 7.66241 19.4088 7.66241H3.14552L7.42052 11.9444C7.77208 12.303 7.76505 12.8796 7.41348 13.2382C7.05489 13.5898 6.48536 13.5898 6.12677 13.2312L0.333033 7.39522C0.25569 7.31085 0.192408 7.21944 0.143188 7.10694C0.0939693 6.99444 0.072876 6.87491 0.072876 6.75538C0.072876 6.51632 0.164282 6.29132 0.333033 6.11554L6.12677 0.279599C6.4713 -0.0860303 7.04786 -0.0930608 7.40645 0.258502Z' fill='black' />

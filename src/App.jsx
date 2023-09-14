@@ -17,7 +17,7 @@ function App() {
       <div className='flex h-full pl-8'>
         <Sidebar />
         <div className='h-full w-full pl-6 flex flex-col'>
-          <div className='flex flex-col h-full'>
+          <div className='flex flex-col mb-4'>
             <Topbar />
             <TopMusic setTitle={setTitle} setAlbumArt={setAlbumArt} setartist={setArtist} />
           </div>

@@ -1,6 +1,6 @@
 const Topbar = () => {
   return (
-    <div className='flex justify-between items-center pr-8 max-w-[1600px]'>
+    <div className='flex justify-between pr-8 max-w-[1600px] relative'>
       <div className='flex items-center w-full'>
         <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'>
           <path d='M17 17L13.1333 13.1333' stroke='black' />
@@ -8,7 +8,7 @@ const Topbar = () => {
         </svg>
         <input placeholder='Search for Songs, Artists, etc..' className='w-full ml-[12px] bg-transparent' />
       </div>
-      <div className='flex gap-4 items-center'>
+      <div className='flex gap-6 items-center'>
         <a className='py-3 px-4 rounded-l-2xl rounded-r-2xl w-[245px] text-center border-[3px] border-solid border-main-accent font-bold'>Upgrade To Premium</a>
         <svg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'>
           <path d='M12.7546 10C12.7546 11.3556 11.6556 12.4545 10.3 12.4545C8.9444 12.4545 7.84546 11.3556 7.84546 10C7.84546 8.64439 8.9444 7.54546 10.3 7.54546C11.6556 7.54546 12.7546 8.64439 12.7546 10Z' stroke='#5E77FB' />

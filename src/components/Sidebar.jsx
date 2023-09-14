@@ -13,7 +13,7 @@ const Sidebar = () => {
         <ul className='flex flex-col gap-[33px] w-full '>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-main-accent w-2 text-transparent '>h </div>
-            <li className='flex items-center gap-2 font-bold w-full  hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-black hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='17' height='18' viewBox='0 0 17 18' fill='none'>
                 <path d='M5.79999 17V9H10.6V17' stroke='#5E77FB' />
                 <path d='M1 6.6L8.2 1L15.4 6.6V15.4C15.4 16.2837 14.6837 17 13.8 17H2.6C1.71634 17 1 16.2837 1 15.4V6.6Z' stroke='black' />
@@ -23,7 +23,7 @@ const Sidebar = () => {
           </div>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-gray-600 hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'>
                 <g opacity='0.5'>
                   <path d='M14.4171 4.71644H2.99009C2.74293 4.71644 2.54071 4.51422 2.54071 4.26706C2.54071 4.01991 2.74293 3.81769 2.99009 3.81769H14.4171C14.6643 3.81769 14.8665 4.01991 14.8665 4.26706C14.8665 4.51422 14.6643 4.71644 14.4171 4.71644Z' fill='black' stroke='black' />
@@ -32,12 +32,12 @@ const Sidebar = () => {
                   <path d='M6.90735 9.935L10.6468 12.3389L6.90735 14.7429V9.935Z' stroke='#5E77FB' />
                 </g>
               </svg>
-              Playlist
+              Playlists
             </li>
           </div>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-gray-600 hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='17' height='18' viewBox='0 0 17 18' fill='none'>
                 <g opacity='0.5'>
                   <path d='M15.2222 17V15.2222C15.2222 13.2585 13.6303 11.6667 11.6667 11.6667H4.55556C2.59188 11.6667 1 13.2585 1 15.2222V17' stroke='black' />
@@ -49,7 +49,7 @@ const Sidebar = () => {
           </div>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-gray-600 hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'>
                 <g opacity='0.5'>
                   <path d='M14.8869 4.71644H3.45988C3.21272 4.71644 3.0105 4.51422 3.0105 4.26706C3.0105 4.01991 3.21272 3.81769 3.45988 3.81769H14.8869C15.1341 3.81769 15.3363 4.01991 15.3363 4.26706C15.3363 4.51422 15.1341 4.71644 14.8869 4.71644Z' fill='#5E77FB' stroke='#5E77FB' />
@@ -67,7 +67,7 @@ const Sidebar = () => {
         <ul className='flex flex-col gap-[33px] w-full '>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-gray-600  hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='20' height='15' viewBox='0 0 20 15' fill='none'>
                 <g opacity='0.5'>
                   <path d='M11.8004 7.36435C11.8004 8.35867 10.9943 9.16473 9.99997 9.16473C9.00564 9.16473 8.19958 8.35867 8.19958 7.36435C8.19958 6.37002 9.00564 5.56396 9.99997 5.56396C10.9943 5.56396 11.8004 6.37002 11.8004 7.36435Z' stroke='#5E77FB' />
@@ -79,7 +79,7 @@ const Sidebar = () => {
           </div>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold w-full text-gray-600  hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='18' height='19' viewBox='0 0 18 19' fill='none'>
                 <g opacity='0.5'>
                   <path d='M8.55888 12.8704C8.65305 12.9644 8.78067 13.0173 8.91386 13.0173C9.04694 13.0173 9.17456 12.9646 9.26872 12.8704L11.0608 11.0784C11.2569 10.8822 11.2569 10.5645 11.0608 10.3684C10.8648 10.1724 10.5469 10.1724 10.3509 10.3684L8.91386 11.8054L8.25864 11.1502C8.06252 10.9542 7.74474 10.9542 7.54866 11.1502C7.35268 11.3462 7.35268 11.664 7.54866 11.8602L8.55888 12.8704Z' fill='#5E77FB' stroke='#5E77FB' />
@@ -92,7 +92,7 @@ const Sidebar = () => {
           </div>
           <div className='group flex gap-6'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 w-full font-bold text-gray-600 hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='14' height='20' viewBox='0 0 14 20' fill='none'>
                 <g opacity='0.5'>
                   <path d='M6.72725 1C5.37164 1 4.27271 2.09894 4.27271 3.45455V10C4.27271 11.3556 5.37164 12.4545 6.72725 12.4545C8.08286 12.4545 9.1818 11.3556 9.1818 10V3.45455C9.1818 2.09894 8.08286 1 6.72725 1Z' stroke='#5E77FB' />
@@ -104,9 +104,9 @@ const Sidebar = () => {
               Podcast
             </li>
           </div>
-          <div className='group flex gap-6'>
+          <div className='group flex gap-6 -translate-x-1'>
             <div className='h-full rounded-t-md rounded-b-md bg-transparent w-2 text-transparent group-hover:bg-main-accent'>h </div>
-            <li className='flex items-center gap-2 font-bold w-full hover:cursor-pointer'>
+            <li className='flex items-center gap-2 font-bold text-gray-600 w-full hover:cursor-pointer'>
               <svg xmlns='http://www.w3.org/2000/svg' width='20' height='19' viewBox='0 0 20 19' fill='none'>
                 <g opacity='0.4'>
                   <path d='M17.3025 2.31086C15.5555 0.563047 12.7222 0.563047 10.9752 2.31086L10.1131 3.17293L9.25105 2.31086C7.50382 0.563627 4.671 0.563626 2.92377 2.31086C1.17653 4.05809 1.17653 6.89091 2.92377 8.63814L3.78584 9.50022L10.1131 15.8275L16.4404 9.50022L17.3025 8.63814C19.0503 6.89115 19.0503 4.05785 17.3025 2.31086Z' stroke='black' />
