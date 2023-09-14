@@ -1,6 +1,6 @@
 const PopularSongDetail = (props) => {
   return (
-    <div className='flex gap-2 items-center justify-between hover:border hover:border-gray-400 hover:rounded-l-full hover:rounded-r-full'>
+    <div className='flex gap-2 items-center justify-between hover:border hover:bg-white hover:shadow-2xl px-4 py-2 hover:rounded-l-full hover:rounded-r-full'>
       <div className='flex items-center gap-2'>
         <img src='' alt='' className='w-2 h-2 bg-black' />
         <img className='w-14 h-14 rounded-full' src={props.albumArt} />

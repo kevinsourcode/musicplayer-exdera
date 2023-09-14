@@ -2,7 +2,7 @@ import { FiHome, FiRadio, FiHeart, FiMic, FiCalendar, FiLayers } from "react-ico
 
 const Sidebar = () => {
   return (
-    <div className=' border p-8 bg-white rounded-xl'>
+    <div className=' border p-8 bg-white rounded-xl h-[700px]'>
       <div className='flex flex-col relative items-center -mt-12 mb-[40px]'>
         <img src='src/assets/proPic.png' className='' />
         <div className='-mt-8 flex flex-col items-center'>
