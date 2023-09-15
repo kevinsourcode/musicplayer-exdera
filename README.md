@@ -34,6 +34,4 @@ Project built using React + Vite and Tailwind CSS for styling.
 
 ### svgs and absolute values have been used to make the project closely resemble to the XD File.
 
-# Screenshots
-
-(image.png)
+![Screenshot](image.png)
